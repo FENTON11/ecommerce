@@ -1,9 +1,9 @@
 import { pgTable, uuid, timestamp, integer } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 import { z } from "zod";
-import { users } from "@/lib/db/schema/user";
-import { guests } from "@/lib/db/schema/guest";
-import { productVariants } from "@/lib/db/schema/variants";
+import { users } from "./user";
+import { guests } from "./guest";
+import { productVariants } from "./variants";
 
 export const carts = pgTable("carts", {
   id: uuid("id").primaryKey().defaultRandom(),

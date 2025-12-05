@@ -1,4 +1,4 @@
-import { db } from "@/lib/db";
+import { db } from "./index";
 import {
   genders,
   colors,
@@ -22,7 +22,7 @@ import {
   type InsertProduct,
   type InsertVariant,
   type InsertProductImage,
-} from "@/lib/db/schema";
+} from "./schema";
 import { eq } from "drizzle-orm";
 import { mkdirSync, existsSync, cpSync } from "fs";
 import { join, basename } from "path";

@@ -1,8 +1,8 @@
 import { pgTable, text, uuid, integer, boolean } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 import { z } from "zod";
-import { products } from "@/lib/db/schema/products";
-import { productVariants } from "@/lib/db/schema/variants";
+import { products } from "./products";
+import { productVariants } from "./variants";
 
 export const productImages = pgTable("product_images", {
   id: uuid("id").primaryKey().defaultRandom(),

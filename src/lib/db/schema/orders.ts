@@ -8,9 +8,9 @@ import {
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 import { z } from "zod";
-import { users } from "@/lib/db/schema/user";
+import { users } from "./user";
 import { addresses } from "./addresses";
-import { productVariants } from "@/lib/db/schema/variants";
+import { productVariants } from "./variants";
 
 export const orderStatusEnum = pgEnum("order_status", [
   "pending",

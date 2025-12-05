@@ -2,7 +2,7 @@ import { pgTable, text, timestamp, uuid, integer } from "drizzle-orm/pg-core";
 import { relations, sql } from "drizzle-orm";
 import { z } from "zod";
 import { products } from "./products";
-import { users } from "@/lib/db/schema/user";
+import { users } from "./user";
 
 export const reviews = pgTable(
   "reviews",
