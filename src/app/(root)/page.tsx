@@ -1,5 +1,6 @@
+import Card from "@/components/Card";
 import React from "react";
-// import { Card } from "@/components";
+
 // import { getCurrentUser } from "@/lib/auth/actions";
 
 const products = [
@@ -52,7 +53,7 @@ const Home = async () => {
           Latest shoes
         </h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {/* {products.map((p) => (
+          {products.map((p) => (
             <Card
               key={p.id}
               title={p.title}
@@ -63,7 +64,7 @@ const Home = async () => {
               badge={p.badge}
               href={`/products/${p.id}`}
             />
-          ))} */}
+          ))}
         </div>
       </section>
     </main>
