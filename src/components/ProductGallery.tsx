@@ -77,7 +77,7 @@ export default function ProductGallery({
             key={`${src}-${i}`}
             aria-label={`Thumbnail ${i + 1}`}
             onClick={() => setActiveIndex(i)}
-            className={`relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg ring-1 ring-light-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[--color-dark-500] ${
+            className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-lg ring-1 ring-light-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[--color-dark-500] ${
               i === activeIndex ? "ring-[--color-dark-500]" : ""
             }`}
           >

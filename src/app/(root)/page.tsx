@@ -1,7 +1,7 @@
 import Card from "@/components/Card";
 import React from "react";
 
-// import { getCurrentUser } from "@/lib/auth/actions";
+import { getCurrentUser } from "@/lib/auth/actions";
 
 const products = [
   {
