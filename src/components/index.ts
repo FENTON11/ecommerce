@@ -1,8 +1,8 @@
-export { default as Navbar } from "./Navbar";
-export { default as Card } from "./Card";
-export { default as Footer } from "./Footer";
-export { default as AuthForm } from "./AuthForm";
-export { default as SocialProviders } from "./SocialProviders";
-export { default as ProductGallery } from "./ProductGallery";
-export { default as SizePicker } from "./SizePicker";
-export { default as CollapsibleSection } from "./CollapsibleSection";
+export { default as Navbar } from "@/components/Navbar";
+export { default as Card } from "@/components/Card";
+export { default as Footer } from "@/components/Footer";
+export { default as AuthForm } from "@/components/AuthForm";
+export { default as SocialProviders } from "@/components/SocialProviders";
+export { default as ProductGallery } from "@/components/ProductGallery";
+export { default as SizePicker } from "@/components/SizePicker";
+export { default as CollapsibleSection } from "@/components/CollapsibleSection";
